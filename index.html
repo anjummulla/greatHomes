@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/hamburger.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+<header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col float-left">
+		<img src="images/logo.png" class="img-fluid" />
+	</div>
+    <div class="col float-right">
+			<span class="topIcons menuIcon"><a href="#">Menu</a></span>
+			<span class="topIcons contactIcon"><a href="#">Contact us</a></span>
+			<span class="topIcons homeIcon"><a href="#">Home</a></span>
+	</div>
+  </div>
+</div>
+</header>
+<section id="bannerCarousel">
+
+	<div id="carouselWrapper" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ul class="carousel-indicators">
+		<li data-target="#carouselWrapper" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselWrapper" data-slide-to="1"></li>
+		<li data-target="#carouselWrapper" data-slide-to="2"></li>
+		<li data-target="#carouselWrapper" data-slide-to="3"></li>
+	  </ul>
+	  
+	  <!-- The slideshow -->
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <img src="images/pexels-photo-276724.jpeg" alt="Los Angeles" class="img-fluid">
+		</div>
+		<div class="carousel-item">
+		  <img src="images/pexels-photo-312029.jpeg" alt="Chicago"  class="img-fluid">
+		</div>
+		<div class="carousel-item">
+		  <img src="images/pexels-photo-534151.jpeg" alt="New York"  class="img-fluid">
+		</div>
+		<div class="carousel-item">
+		  <img src="images/pexels-photo-1288482.jpeg" alt="New York"  class="img-fluid">
+		</div>
+	  </div>
+	  
+	  <!-- Left and right controls -->
+	  <a class="carousel-control-prev" href="#carouselWrapper" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselWrapper" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	  </a>
+	</div>
+</section>
+<section id="aboutus" class="text-center">
+
+       <div class="container">
+                <div class="row">
+    <div class="col-xs-12">
+	<img src="images/aboutus-icon.png" />
+                        <h1>About Us</h1>
+                        <p><b>We are a leading estate agent providing a comprehensive service to our customers within the local area.</b></p>
+ <p>
+With many years of experience, we have developed an extensive knowledge of the local property market enabling us to offer a wide-ranging service that is both friendly and professional as befits our reputation. We are committed to providing our customers (whether property sellers, buyers, developers etc) with individual high quality advice based on the wealth of experience of our local dedicated sales team.</p>
+ <p>
+With all the traditional values you would expect from a well-established firm combined with the latest innovations and technology, we offer a modern quality service.</p>                       
+                    </div>
+                </div>
+            </div>
+ </section>
+</body>
+</html>

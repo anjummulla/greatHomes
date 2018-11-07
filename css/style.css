@@ -1,0 +1,38 @@
+#aboutus{
+	background-color:#1d2226;
+	color:#848388;
+	border-top:5px solid #a22127;
+	padding:50px;
+}
+#aboutus h1{
+	color:#FFF;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.topIcons{
+	width:85px;
+	height:145px;
+	background-color:#a3abb1;
+	background-position:50% 30%;
+	display: table;
+	float: right;
+    margin-right: 20px;
+	background-repeat:no-repeat;
+}
+.topIcons a{
+	display: table-cell;
+    vertical-align: bottom;
+    text-align: center;
+    padding-bottom: 15px;
+	color:#FFF;	
+}
+.homeIcon{
+	background-image:url(../images/home-icon.png);
+}
+.contactIcon{
+	background-image:url(../images/contact-us-icon.png);
+}
+.menuIcon{
+	background-image:url(../images/menu-icon.png);
+	background-position:50% 40%;
+}
